@@ -101,7 +101,7 @@ You'll need two terminal windows: one for the FastAPI backend and one for the St
 1.  **Start the FastAPI Backend:**
     Navigate to the project root directory in your terminal and run:
     ```bash
-    uvicorn app:app --reload
+    python -m uvicorn app:app --reload
     ```
     The backend API will typically be available at `http://127.0.0.1:8000`.
 
